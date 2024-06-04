@@ -1,19 +1,8 @@
 export default function getListStudents() {
-    return [
-      {
-        firstName: 'Guillaume',
-        id: 1,
-        location: 'San Francisco',
-      },
-      {
-        firstName: 'James',
-        id: 2,
-        location: 'Columbia',
-      },
-      {
-        firstName: 'Serena',
-        id: 5,
-        location: 'San Francisco',
-      },
-    ];
-  }
+  const objArray = [];
+  objArray.push({ id: 1, firstName: 'Guillaume', location: 'San Francisco' });
+  objArray.push({ id: 2, firstName: 'James', location: 'Columbia' });
+  objArray.push({ id: 5, firstName: 'Serena', location: 'San Francisco' });
+
+  return objArray;
+}
